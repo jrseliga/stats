@@ -73,11 +73,11 @@ class Stats
 
 	public function __construct()
 	{
-		$icon_format     = strtolower( rtrim( \Config::get('stats::icon_format')       )       );
-		$this->aw_path   = strtolower( rtrim( \Config::get('stats::AWstats_path'), '/' ) . '/' );
-		$this->icon_path = strtolower( rtrim( \Config::get('stats::icon_path'),    '/' ) . '/' );
+		$icon_format     = strtolower( rtrim( \Config::get('stats.icon_format')       )       );
+		$this->aw_path   = strtolower( rtrim( \Config::get('stats.AWstats_path'), '/' ) . '/' );
+		$this->icon_path = strtolower( rtrim( \Config::get('stats.icon_path'),    '/' ) . '/' );
 
-		$this->setUseUnits   ( \Config::get('stats::units') );
+		$this->setUseUnits   ( \Config::get('stats.units') );
 		$this->setIconFormat ($icon_format);
 		$this->setUseIcons   ($this->icon_path);
 
