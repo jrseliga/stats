@@ -1,5 +1,5 @@
 {
-    "name": "samkitano/stats",
+    "name": "jrseliga/stats",
     "description": "AWstats Parser for Laravel",
     "keywords": ["laravel", "awstats"],
     "license": "MIT",
